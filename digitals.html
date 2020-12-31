@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+
+    <title>Dijital Test Covid TR</title>
+    <meta charset="utf-8">
+    <style>
+
+body{
+
+background-color: deeppink;
+
+}
+
+
+
+    </style>
+<style type="text/css">
+
+.btn-grad {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
+         .btn-grad {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; 
+            color: #fff;
+            text-decoration: none;
+          }
+         
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+
+
+
+</head>
+<body>
+    <script>
+        function safe(){
+
+            window.location="digital.html";
+        }
+        
+        
+        
+        
+        
+            </script>
+    <script>
+
+
+
+
+        var akinti,ates,oksuruk,koku,uyku,kalabalik,toplam,son;
+        alert("Unutmayın Bu Tahmini Verilere Göre Bir Testtir Lütfen Sonuca Göre Panik Yapmayınız Eğer Gerçekten Durumunuz Kötü İse Lütfen Bir Sağlık Kuruluşuna Başvurunuz");
+        alert("Lütfen 1 veya 2 Sayılarını Kullanınız 1=Hayır 2=Evet")
+        akinti=Number(prompt("Akıntınız Veya Halsizliğiniz Varmı?"));
+        ates=Number(prompt("Ateşiniz 38 Derecenin Üzerine Çıktı Mı?"));
+        oksuruk=Number(prompt("Kuru Öksürüğünüz Varmı?"));
+        koku=Number(prompt("Koku veya Tat Kaybınız Varmı?"));
+        uyku=Number(prompt("Uyku Düzeniniz Varmı?"));
+        kalabalik=Number(prompt("Son 30 Gün İçerisinde Kalabalık Ortamlarda Bulundunuzmu?"));
+        toplam=akinti +ates +oksuruk +koku +uyku +kalabalik;
+        if(toplam<=9){alert("Riskiniz Düşük")};
+        if(toplam>9){alert("Riskiniz Bulunmakta Eğer Şikayetiniz Devam Ederse Bir Sağlık Kuruluşuna Başvurunuz.")};
+        if(toplam<=9){son="Riskiniz Düşük"};
+        if(toplam>9){son="Riskiniz Bulunmakta"};
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </script>
+        
+        <script>
+
+document.getElementById("hesc").innerHTML =hest;
+
+        </script>
+
+<h2>Son Test Sonucunuz:</h2>
+<h3 id="test"></h3>
+
+
+
+
+
+
+
+
+
+
+</table>
+
+
+
+
+
+
+
+
+
+
+</form>
+
+<script>
+    document.getElementById("test").innerHTML =son;
+ </script>
+ <br><a class="btn-grad" href="digital.html">Yeniden Test Ol</a>
+ <button onclick="safe()">Arkaplanı Rengini Yeşil Yap</button>
+<br><br><big>Not:Bu veriler net bir şekilde kanıtlanmış veya onaylı veriler değildir sizin belirtilerinize göre cevap vermektedir.Bir garantisi yoktur.Ancak belirtileriniz ve rahatsızlığınız devam ederse lütfen bir sağlık kuruluşuna başvurun.</big>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

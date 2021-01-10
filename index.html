@@ -4,6 +4,17 @@
 
 <html lang="tr">
 <head>
+        <script>
+ if (Notification.permission !== 'denied') 
+// Kullanıcıdan onay ise
+Notification.requestPermission(function (permission) {
+  // Kullanıcı onaylamadı ise tekrar soralım
+  if (permission === "granted") {
+    // onaylarsa bilgilendirme popup'ı aç
+    var notification = new Notification("Merhaba dünya!");
+  }
+});
+    </script>
     <meta charset="utf-8">
 <style type="text/css">
 
